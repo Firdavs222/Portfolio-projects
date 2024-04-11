@@ -1,0 +1,59 @@
+CREATE DATABASE carsmarket;
+\c carsmarket
+
+CREATE TABLE cars (
+	Make VARCHAR(50),
+	Model VARCHAR(50),
+	Year VARCHAR(50),
+	Unique_ID VARCHAR(50)
+);
+insert into cars (Make, Model, Year, Unique_ID) values ('Volkswagen', 'riolet', 1993, '5N1AA0NC4EN983596');
+insert into cars (Make, Model, Year, Unique_ID) values ('Dodge', 'Viper', 2006, 'YV4852CT7A1827783');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mercedes-Benz', 'SL-Class', 1999, 'JTHBL5EF3C5377132');
+insert into cars (Make, Model, Year, Unique_ID) values ('Lexus', 'IS', 2011, '2G4G15GV6B9515213');
+insert into cars (Make, Model, Year, Unique_ID) values ('Honda', 'Accord', 2001, 'WA1CMAFE6BD950234');
+insert into cars (Make, Model, Year, Unique_ID) values ('Volkswagen', 'rio', 2001, 'WAUPL58E85A619222');
+insert into cars (Make, Model, Year, Unique_ID) values ('GMC', 'Jimmy', 1992, '3D73M4CL3AG682132');
+insert into cars (Make, Model, Year, Unique_ID) values ('Lincoln', 'Town Car', 1992, 'WAUMFAFL2BN683555');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mitsubishi', 'Truck', 1990, '2FMHK6CC3AB615706');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mitsubishi', 'Eclipse', 2010, '5LMJJ3J50DE444235');
+insert into cars (Make, Model, Year, Unique_ID) values ('GMC', 'Rally Wagon G2500', 1995, 'WAUKG94F36N872785');
+insert into cars (Make, Model, Year, Unique_ID) values ('Maserati', 'GranSport', 2005, 'WBAVB33596P885840');
+insert into cars (Make, Model, Year, Unique_ID) values ('Chevrolet', 'G-Series G20', 1992, '1GD21ZCG5DZ033950');
+insert into cars (Make, Model, Year, Unique_ID) values ('Nissan', 'Armada', 2006, '19UUB2F36FA010402');
+insert into cars (Make, Model, Year, Unique_ID) values ('Ford', 'Escape', 2005, '2C3CDXEJ4FH297066');
+insert into cars (Make, Model, Year, Unique_ID) values ('Pontiac', 'LeMans', 1991, '1G6AA5RX3F0261438');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mitsubishi', 'Galant', 1985, '19VDE1F38DE462919');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mitsubishi', 'i-MiEV', 2012, '2T1BURHE6EC308904');
+insert into cars (Make, Model, Year, Unique_ID) values ('Pontiac', 'Grand Prix', 1984, '3GYFNDE31CS936397');
+insert into cars (Make, Model, Year, Unique_ID) values ('Ford', 'E-Series', 1996, 'WAUGFAFC4FN308107');
+insert into cars (Make, Model, Year, Unique_ID) values ('Oldsmobile', 'Bravada', 1994, 'VNKJTUD33FA638860');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mitsubishi', 'L300', 1988, 'JN1CV6AP1CM935251');
+insert into cars (Make, Model, Year, Unique_ID) values ('Toyota', 'Tacoma Xtra', 2000, 'WBAFR9C5XCD522057');
+insert into cars (Make, Model, Year, Unique_ID) values ('Lincoln', 'Mark VIII', 1994, '4JGBB2FB1AA349487');
+insert into cars (Make, Model, Year, Unique_ID) values ('Plymouth', 'Breeze', 2000, 'WBAEK13587C621506');
+insert into cars (Make, Model, Year, Unique_ID) values ('Audi', '90', 1993, 'WBA3B1C5XFK445439');
+insert into cars (Make, Model, Year, Unique_ID) values ('Dodge', 'Stealth', 1994, 'SCFAD01A05G892542');
+insert into cars (Make, Model, Year, Unique_ID) values ('Ford', 'Tempo', 1993, '5N1AR2MM1FC106494');
+insert into cars (Make, Model, Year, Unique_ID) values ('Ford', 'Bronco', 1986, 'WVGBF7A98AD539503');
+insert into cars (Make, Model, Year, Unique_ID) values ('Chevrolet', 'S10', 2002, 'WAUEH74F86N112527');
+insert into cars (Make, Model, Year, Unique_ID) values ('Ford', 'Thunderbird', 1992, 'WBANV93509C068956');
+insert into cars (Make, Model, Year, Unique_ID) values ('Volvo', 'S40', 2007, 'WAUXL58E25A279579');
+insert into cars (Make, Model, Year, Unique_ID) values ('Volvo', 'XC90', 2011, 'WA1DKBFP0BA733491');
+insert into cars (Make, Model, Year, Unique_ID) values ('Honda', 'Accord', 2006, '1VWAH7A39DC922427');
+insert into cars (Make, Model, Year, Unique_ID) values ('Saab', '9-2X', 2005, '2C3CDZBT8FH260278');
+insert into cars (Make, Model, Year, Unique_ID) values ('Infiniti', 'QX', 2011, 'WAUWFAFRXAA197238');
+insert into cars (Make, Model, Year, Unique_ID) values ('Volkswagen', 'Cabriolet', 1991, '1FTEX1CM6CF877354');
+insert into cars (Make, Model, Year, Unique_ID) values ('Subaru', 'Tribeca', 2012, 'KMHHT6KD9BU951169');
+insert into cars (Make, Model, Year, Unique_ID) values ('Dodge', 'Journey', 2011, '1FTNF2A52AE465455');
+insert into cars (Make, Model, Year, Unique_ID) values ('Audi', 'S4', 2002, 'WBAUL73588V493401');
+insert into cars (Make, Model, Year, Unique_ID) values ('Infiniti', 'G', 2006, 'WBAKE3C57BE429500');
+insert into cars (Make, Model, Year, Unique_ID) values ('Nissan', 'Murano', 2012, 'KMHEC4A40DA486309');
+insert into cars (Make, Model, Year, Unique_ID) values ('Mazda', '626', 1993, '5N1AR1NB8AC655772');
+insert into cars (Make, Model, Year, Unique_ID) values ('Shelby', 'GT500', 1968, '3N1CE2CP3FL374877');
+insert into cars (Make, Model, Year, Unique_ID) values ('Cadillac', 'Escalade EXT', 2002, '5N1AR1NB2BC665635');
+insert into cars (Make, Model, Year, Unique_ID) values ('Isuzu', 'Rodeo', 1993, '4T1BB3EK7BU582863');
+insert into cars (Make, Model, Year, Unique_ID) values ('Chevrolet', 'Silverado', 2009, 'WBADR63483G408232');
+insert into cars (Make, Model, Year, Unique_ID) values ('Audi', 'Allroad', 2004, '1G4GE5E33CF250877');
+insert into cars (Make, Model, Year, Unique_ID) values ('Jeep', 'Liberty', 2011, 'WP1AA2A2XBL020993');
+insert into cars (Make, Model, Year, Unique_ID) values ('GMC', 'Rally Wagon 2500', 1992, '1N4AA5AP3DC070029');
