@@ -130,3 +130,14 @@ LIMIT 20;
 SELECT Make, COUNT(Unique_ID) 
 FROM cars 
 GROUP BY Make;
+
+-- Viewing cars grouped by make which has more than or equal to 2 cars;
+SELECT Make, COUNT(Unique_ID)
+FROM cars
+GROUP BY Make
+HAVING COUNT(Unique_ID) >= 2
+
+-- Viewing that if any make column exists more than 4 cars; 
+SELECT Make
+FROM cars
+WHERE EXISTS (SELECT Make FROM cars GROUP BY Make HAVING COUNT(Make) > 4)
