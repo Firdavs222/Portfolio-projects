@@ -8,9 +8,6 @@ Created on Sat May 25 19:40:11 2024
 import numpy as np
 import pandas as pd
 from xgboost import XGBClassifier
-from sklearn import tree
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import roc_auc_score, roc_curve
 
 
 train_df = pd.read_csv("train.csv")
