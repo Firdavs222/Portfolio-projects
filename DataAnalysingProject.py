@@ -17,7 +17,7 @@ data = {"Date": pd.date_range("2024-01-01", periods=500),
 df = pd.DataFrame(data)
 
 #show 20 values at the head
-print(df.head(10))
+print(df.head(20))
 #show brief information abput dataframe
 print(df.info())
 #description for dataframe
