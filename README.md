@@ -18,8 +18,8 @@
 5. Statistical interpreting;  
    At the first step, I randomly generate numerical and datetime data with 'NumPy' and 'Random' modules. Categories of generated dataframe are: "Food", "Travel", "Fashion", "Music", "Culture", "Family", "Health". At the second step, data was explored: dataframe includes 3 columns("Date", "Category", "Likes") and 500 rows; In this step, dataframe's head 20 values, brief information and description of it was shown. At the third step, data was cleaned: was dropped null values and duplicate values, converted date format to 'datetime' and 'Likes' to integer. At the fourth step, data was shown at the hystogram and boxplot. At the final step, got mean of 'Likes' and mean of 'Likes' of groupped by 'Category'. At the above, was shown the result:
    <div style="display: flex; justify-content: space-between;">
-   <img src="./Screenshot%202024-05-14%20152012.png" alt="Project Overview" width="45%" height="auto"/>
-   <img src="./Screenshot%202024-05-14%20152135.png" alt="Project Overview" width="45%" height="auto"/>
+   <img src="./Screenshot%202024-05-14%20152012.png" alt="Project Overview" width="auto" height="300"/>
+   <img src="./Screenshot%202024-05-14%20152135.png" alt="Project Overview" width="auto" height="300"/>
    </div>
 
 
