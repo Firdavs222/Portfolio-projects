@@ -10,4 +10,18 @@
   - After training test data's target values were predicted using the model which was trained before;
   - At the end, new dataframe was created and predicted probabilities and Customer's ID were uploaded into it.  
     Model's performance was 74,88, which was measured by 'AUC-ROC' score.  
-## [DataAnalysingProject](https://github.com/Firdavs222/Portfolio-projects/blob/main/DataAnalysingProject.py)
+## [DataAnalysingProject](https://github.com/Firdavs222/Portfolio-projects/blob/main/DataAnalysingProject.py) - this project is aimed to analyze social media users'usage, like Twitter, YouTube, Facebook, etc. But, all data was generated randomly and not a real one. This project includes 5  steps:  
+1. Generating random data;
+2. Exploring data;
+3. Cleaning data;
+4. Visualising data;
+5. Statistical interpreting;  
+   At the first step, I randomly generate numerical and datetime data with 'NumPy' and 'Random' modules. Categories of generated dataframe are: "Food", "Travel", "Fashion", "Music", "Culture", "Family", "Health". At the second step, data was explored: dataframe includes 3 columns("Date", "Category", "Likes") and 500 rows; In this step, dataframe's head 20 values, brief information and description of it was shown. At the third step, data was cleaned: was dropped null values and duplicate values, converted date format to 'datetime' and 'Likes' to integer. At the fourth step, data was shown at the hystogram and boxplot. At the final step, got mean of 'Likes' and mean of 'Likes' of groupped by 'Category'. At the above, was shown the result:  
+   <img src="./Screenshot%202024-05-14%20152012.png" alt="Project Overview" width="400" height="300"/>
+   <img src="./Screenshot%202024-05-14%20152135.png" alt="Project Overview" width="400" height="300"/>
+
+
+
+
+
+   
