@@ -1,6 +1,6 @@
 -- Database creating of the market which is called 'Carsmarket' and solds cars driven by people before;
-CREATE DATABASE Carsmarket;
-\c Carsmarket
+CREATE DATABASE MuscleCarsMarket;
+\c MuscleCarsmarket
 
 -- creating table which is called 'cars';
 CREATE TABLE cars (
