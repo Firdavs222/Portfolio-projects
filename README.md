@@ -21,7 +21,9 @@
    <img src="./Screenshot%202024-05-14%20152012.png" alt="Project Overview" width="auto" height="300"/>
    <img src="./Screenshot%202024-05-14%20152135.png" alt="Project Overview" width="auto" height="300"/>
    </div>
-
+## [DatabaseOfMuscleCarsMarket](https://github.com/Firdavs222/Portfolio-projects/blob/main/carsmarket%20database.sql) 
+This project is intended to create database which is called MuscleCarsMarket and fill it with data of cars. Then some queries are written to get results.  
+First of all MuscleCarsMarket database was created and then in it the table "cars" created with 4 features: "Make", "Model", "Year", Unique_ID" and table "Employees" with features "id", "first_name", "last_name", "email", "gender", "ip_address". And then, some data inserted into table which was randomly generated with https://www.mockaroo.com/ . And, finally some queries were entered to take some intended information.
 
 
 
